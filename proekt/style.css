@@ -1,0 +1,431 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+}
+.full-width{
+    width: 100%;
+}
+
+.bg-image{
+    background-image: url(./images/banner.jpg);
+    background-position: top;
+    background-size: cover;
+    border-top: 10px solid #5385c1;
+}
+
+.inner{
+    width: 1280px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.navigation-wrap{
+    color: white;
+    display: inline;
+    text-align: center;
+}
+.logo{
+   float: left;
+   font-size: 25px;
+   margin-top: 9px;
+   font-weight: bold;
+}
+
+nav{
+    float: right;
+}
+
+.navigation-bar ul li{
+    text-align: center;
+    display: inline;
+    padding: 3px;
+}
+
+.navigation-bar ul li a{
+    text-decoration: none;
+    color: white; 
+}
+.main-text {
+    margin-top: 100px;
+}
+
+.main-text h1{
+    font-size: 50px;
+}
+
+.main-text p{
+    font-size: 20px;
+}
+/* Boksovi so bela pozadina  */
+
+.three-boxes{
+    background-color: white;
+    margin-top: 8%;
+}
+.box1{
+    margin-right: 4%;
+    height: 250px;
+    width: 30%;
+    border-right: 1px solid #9a9a9a;
+    float: left;
+    text-align: left;
+    padding-right: 6px;
+}
+.box1 h1{
+    color:#5385c1;
+    letter-spacing: normal;
+}
+.box1 p{
+    color: #5a5a5a;
+    letter-spacing: normal;
+    font-size: 17px;
+
+}
+.box2{
+    margin-right: 4%;
+    height: 250px;
+    width: 30%;
+    border-right: 1px solid #9a9a9a;
+    float: left;
+    text-align: left;
+    padding-right: 6px;
+    
+}
+.box2 h1{
+    color:#5385c1;
+    letter-spacing: normal;
+}
+.box2 p{
+    color: #5a5a5a;
+    letter-spacing: normal;
+    font-size: 17px;
+
+}
+.box3{
+    height: 250px;
+    width: 30%;
+    float: left;
+    text-align: left;
+    
+}
+.box3 h1{
+    color:#5385c1;
+    letter-spacing: normal;
+}
+.box3 p{
+    color: #5a5a5a;
+    letter-spacing: normal;
+    font-size: 17px;
+
+}
+ button{
+    height: 40px;
+    width: 60px;
+    font-size: 15px;
+    color: white;
+    background-color: #5385c1;
+    border: none;
+ }
+
+/* Boksovi so sina pozadina */
+
+.main-text2{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.main-text2 h1{
+font-size: 40px;
+}
+.main-text2 p{
+    font-size: 25px;
+    }
+.second-boxes{
+    padding-top: 100px;
+}
+
+.second-boxes img{
+    text-align: center;
+    border: none;
+    border-radius: 50%;
+    margin-left: 48px;
+    margin-top:28px;
+}
+.second-boxes h1{
+    color: white;
+    text-align: center;
+}
+.second-boxes p{
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.blue-background{
+    width: 100%;
+    background-color: #5385c1;
+}
+
+.first-box{
+    width: 21%;
+    margin-right: 4%;
+    border: 1px solid white;
+    float: left;
+}
+
+.second-box{
+    width: 21%;
+    margin-right: 4%;
+    border: 1px solid white;
+    float: left;
+}
+
+.third-box{
+    width: 21%;
+    margin-right: 4%;
+    border: 1px solid white;
+    float: left;
+}
+
+.fourth-box{
+    width: 21%;
+    border: 1px solid white;
+    float: left;
+}
+
+/* Final boxes white background */
+
+.last-text{
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 50px;
+}
+.last-text h1{
+ color: #5385c1;
+ font-size: 40px;
+}
+.last-text p{
+    color:#9a9a9a;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.box-one{
+    width: 48%;
+    margin-right: 2%;
+    float: left;
+}
+.box-one h1{
+    color: #5385c1;
+    font-size: 25px;
+}
+
+.box-one p{
+    color:#9a9a9a;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding-bottom: 3%;
+    text-align: left;
+    line-height: 1.5;
+}
+.box-two{
+    width: 48%;
+    margin-left: 2%;
+    float: left;
+}
+.box-two h1{
+    color: #5385c1;
+    font-size: 25px;
+}
+.box-two p{
+    color:#9a9a9a;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    padding-bottom: 3%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+footer{
+    width: 1280px;
+    margin: 0 auto;
+    border-top: 1px solid #9a9a9a;
+}
+footer p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+footer .fa-brands {
+    font-size: 20px;
+    color: #5385c1;
+    padding-right: 4px;
+    padding-top: 20px;
+    margin-top: 16px;
+    float:right;
+}
+ 
+.fa-brands , .fa-twitter , .fa-facebook , .fa-instagram , .fa-reddit , .fa-tumblr {
+    display: inline-block;
+}
+
+
+@media (max-width:768px){
+     
+.inner {
+  width:85%;
+}
+.navigation-bar{
+    display: none;
+}
+.box1, .box2, .box3{
+    width: 100%;
+    border-right: none;
+    height: 0%;
+    text-align: center;
+}
+
+button {
+    width: 84%;
+}
+.blue-background {
+    margin-top: 29px;
+}
+.box2{
+    height: none;
+}
+
+.first-box{
+    width: 84%;
+    
+    border: 1px solid white;
+    border-top: none;
+    float: none;
+}
+
+.second-box{
+    width: 84%;
+    border: 1px solid white;
+    border-top: none;
+    border-top: none;
+    float: none;
+    margin-top: 10%;
+}
+
+.third-box{
+    width: 84%;
+    margin-top: 10%;
+    border: 1px solid white;
+    border-top: none;
+    float: none;
+}
+
+.fourth-box{
+    width: 84%;
+    border: 1px solid white;
+    border-top: none;
+    margin-top: 10%;
+   
+    
+}
+
+.second-boxes{
+    padding-top: 0%;
+}
+.main-text2 {
+    padding-top: 7px;
+}
+.box-one{
+    width: 85%;
+    margin-right: 2%;
+    float: none ;
+}
+
+footer{
+    width: 85%;
+    margin: 0 auto;
+    border-top: 1px solid #9a9a9a;
+}
+.addheight {
+    height: 1739px;
+  }
+  .box-one{
+    width: 85%;
+margin-right: 2%;
+float: none;
+left: 5%;
+position: relative;
+text-align: center;
+  }
+  button{
+    width: 104%;
+  }
+  .box-one{
+    margin-bottom: 10%;
+  }
+  .box-two {
+    width: auto;
+  }
+  .box-two img{
+    width: 93%;
+  }
+  .makebuttonsmaller{
+    width: 93%;
+  }
+  .box-two {
+    margin-bottom: 10%;
+  }
+  .box-two p{
+    width: 96%;
+  }
+.first-box,.second-box,.third-box,.fourth-box{
+    margin-left: 7%;
+    border-top: 1px solid white;
+}
+.second-boxes img{
+    margin-left: 189px;
+}
+.box-one p{
+    text-align: center;
+}
+.box-two h1{
+    text-align: center;
+}
+.box-two p{
+    text-align: center;
+}
+.box-one{
+    width: 85%;
+}
+.box-two {
+    margin-left: 5%;
+    width: 85%;
+}
+.box-two {
+    margin-bottom: 10%;
+    width: 95%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
